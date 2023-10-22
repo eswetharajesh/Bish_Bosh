@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#input-container {
+    text-align: center;
+}
+
+#input-container label,
+#input-container input,
+#input-container button {
+    display: block;
+    margin: 10px 0;
+}
+
+#output-container {
+    text-align: center;
+}
+
+#output-text {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
